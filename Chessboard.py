@@ -26,7 +26,7 @@ img11 = cv2.rectangle(img11, (250, 250), (375, 375), (255, 255, 255), -1)
 
 c1 = cv2.bitwise_or(img1, img2)
 c2 = cv2.bitwise_xor(c1, img3)    #2 by 2 chessboard
-c3 = cv2.bitwise_xor(c2, img4)
+c3 = cv2.bitwise_xor(c2, img4)    ##Bitwise XOR operation on overlapping white rectangles to convert them to black
 c4 = cv2.bitwise_xor(c3, img5)
 c5 = cv2.bitwise_xor(c4, img6)
 c6 = cv2.bitwise_xor(c5, img7)
